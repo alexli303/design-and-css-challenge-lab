@@ -1,3 +1,8 @@
+<!-- Project Name: Design CSS
+Client: Relaxr
+Author: Alex Li
+Developer @GA in DENVER -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -8,48 +13,64 @@
 		<title>Blank Template</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans">
 
 
 	</head>
 	<body>
+		<nav></nav>
 		<div id="container">
-			<header>
-				<h1>Relaxr</h1>
-				<h2>Get piece of mind with a single tap</h2>
-				<div class="getItNow">Get it Now</div>
 
-			</header>
+		<!-- Header section-->
 
-			<div class="benefits">
-				<h3>Benefits<h3>
-				<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
-					<ul>
-						<li>Schedule meetings for you</li>
-						<li>Excel automation to complete your work for you</li>
-						<li>Responds to emails on your behalf</li>
-						<li>Does all your work for you with our revolutionary AI technology</li>
-					</ul>
-				<div>
-
-				<div class="quote">
-					<p>“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”</p>
-					<p>- Amanda, Intuit</p>
-				</div>
-
-				<div class="signUp">
-				<div class="signUpButton">Sign Up Now!!</div>
-				</div>
-
-			<footer>
-				<h3>Relaxr</h3>
-				<img src="images/twitter.png" alt="">
-				<img src="images/facebook.png" alt="">
+		<header>
+				<span class="relaxr">Relaxr </span>
+				<p class="moto">Get peace of mind with a single tap</p>
 				<br>
-				&copy; Copyright 2015. Relaxr.
-			</footer>
+				<button class="headerBtn">Get it Now</button>
+		</header>
+
+		<!-- Benefits section-->
+
+		<section id= "Benefits">
+		<p>Benefits</p>
+
+		<span class="benefitReason">The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be. </span>
+
+		<ul class="benefitReason">
+			<li>Schedule meetings for you</li>
+			<li>Excel automation to complete your work for you</li>
+			<li>Responds to emails on your behalf</li>
+			<li>Does all your work for you with our revolutionary AI technology</li>
+		</ul>
+
+		</section>
+
+		<!-- Quote section-->
+
+			<section id="Quote">
+				<blockquote><em>“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”</em></blockquote>
+				<span>- Amanda, Intuit </span>
+			</section>
+
+		<!-- SignUp section-->
+
+		<section id="Signup"><br>
+					<button>Sign Up Now!</button>
+		</section>
+
+		<!-- Footer section-->
+
+		<footer>
+			<h1>Relaxr</h1>
+			<img src="images/twitter.png" alt="Twitter">
+			<img src="images/facebook.png" alt="Facebook">
+			<br>
+			<p>&copy; Copyright 2015. Relaxr.</p>
+		</footer>
+
 		</div><!-- #container -->
 	</body>
 </html>

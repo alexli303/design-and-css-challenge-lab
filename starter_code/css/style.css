@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Design CSS
+Client: Relaxr
+Author: Alex Li
+Developer @GA in DENVER
 */
 
 
@@ -46,13 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
      font-size: 12px;
      line-height: 1.4;
-     /*font-family: Helvetica, Arial, sans-serif;*/
      font-family: 'Open Sans',serif;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -60,100 +57,126 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
+  width: 55%;
+  margin: 0 auto;
+  background-position: center;
 }
 
+body{
+  background: #606161;
+}
+
+/* Header */
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   width: auto;
-  height: 500px;
+  height: 400px;
 }
 
-
+/* Footer */
 footer {
-  background: black;
-  width: auto;
-  height: 100px;
-  color: white;
+  background-color: #121212;
+  padding-bottom: 10%;
+  padding-top:10%;
   text-align: center;
+  font-weight: 600;
+}
 
+footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer p {
+  color: white;
+  font-size: 9px;
+  font-weight: 400;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-h1{
-  font-weight: bold;
+
+/* Header */
+.relaxr {
+  text-align: left;
+  padding-left: 24px;
+  padding-top: 24px;
+  font-weight: 800;
   font-size: 24px;
   color: white;
 }
 
-h2{
-  font-weight: Semibold;
+.moto {
+  color: white;
+  font-weight: 400;
   font-size: 24px;
-  color: white;
-  margin: auto;
-  text-align: center;
-
-}
-
-.benefits{
-  background: white;
-  height: 500px;
   text-align: center;
 }
 
-.quote{
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  color: white;
-  height: 200px;
-  text-align: center;
-
-}
-
-.signUp{
-  background: #f9e42e;
-  height: 150px;
-}
-
-.signUpButton{
-  -webkit-border-radius: 16;
-  -moz-border-radius: 16;
-  border-radius: 16px;
-  font-family: Courier New;
-  color: white;
-  font-size: 27px;
-  background: #033048;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  position: absolute;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
-.getItNow {
-  -webkit-border-radius: 16;
-  -moz-border-radius: 16;
-  border-radius: 16px;
-  font-family: Courier New;
+button {
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9e42e;
   color: #033048;
-  font-size: 27px;
-  background: #f9e42e;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  position: absolute;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+  font-weight: 600;
+  border: 1px solid #f9e42e;
+}
 
+.headerBtn{
+  display: block;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Benefits */
+#Benefits {
+  background-color: #f0efef;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 35px;
+  color: #606161;
+}
+
+#Benefits p {
+  font:black;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.benefitReason {
+  color: #606161;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* Quote */
+#Quote {
+  background: url(../images/testimonial_bg.jpg);
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-weight:400;
+  font-size: 18px;
+}
+
+#Quote blockquote{
+  font-family: fantasy;
+}
+
+/* Sign-up Button */
+#Signup {
+  height: 75px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+#Signup button {
+  background-color: #033048;
+  background-position: center;
+  color: white;
 }
